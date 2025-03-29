@@ -1,0 +1,153 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Arial, "MS Trebuchet", sans-serif;
+	background-color:#1e1e1e;
+	font-size: 14px;
+    padding-top: 15px;
+    color: white;
+}
+
+#pageHeader {
+	width: 100%;
+	color: #cd1d2f;
+    text-align: center;
+}
+
+.container-fluid {
+    padding-right: 100px;
+    padding-left: 100px;
+}
+
+.navbar {
+      margin-bottom: 50px;
+      border-radius: 0;
+      background-color: #c33c42;
+}
+
+img.imgLogo {
+	height:70px;
+}
+ 
+.navbar-inverse .navbar-nav>li>a {
+    color: #1e1e1e;
+    font-size: 15px;
+}
+#pageHeader nav ul, 
+#container-fluid nav ul {
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+}
+
+#pageHeader nav ul li, 
+#container-fluid nav ul li {
+	padding: 0;
+	margin: 0 20px 0 0;
+	display: inline;
+}
+
+#navbar-header,
+#container-fluid {
+  background-color: #c33c42;
+  padding-top:10px;
+  padding-bottom:10px;
+  padding-left:10px;
+}
+
+#navbar-header a,
+#container-fluid a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+/* Elementos do Titulo*/
+.titleHeader {
+	margin-bottom: 0px;
+	margin-top:0px;
+  }
+  
+footer#container-fluid small {
+	color: #ffffff;
+	font-size: 12px;
+}
+
+footer#container-fluid nav {
+	float:right;
+}
+
+footer#container-fluid nav ul li {
+	font-size: 12px;
+}
+  
+footer#container-fluid {
+	clear:both;	
+}
+
+/* Section CORPO */
+
+div.row {
+    padding: 10px;
+    margin-top: 15px;
+}
+div.thumbnail{
+    margin-top: 20px;
+}
+/*
+P {
+    font-weight: bold;
+}
+*/
+img.imgAlbum {
+    height: 300px;
+}
+
+
+.container-fluid>.navbar-header {
+    margin-right: -50px;
+    margin-left: -50px;
+}
+div#album {
+    width:700px;
+}
+
+table.integrantes {
+  table-layout: fixed;
+  width: 100%;  
+  text-align: justify;
+}
+.imgTemp{
+    margin-bottom: 20px;
+    float: right;
+}
+
+.panel-body {
+    color: black;
+}
+.thumbnail {
+    color: black;
+}
+
+.tz-Galeria .lightbox img {
+    width: 100%;
+    margin-bottom: 30px;
+    transition: 0.2s ease-in-out;
+    box-shadow: 0 2px 3px rgba(0,0,0,0.2);
+}
+
+
+.tz-Galeria .lightbox img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 15px rgba(0,0,0,0.3);
+}
+
+.tz-Galeria img {
+    border-radius: 4px;
+}
+
+
+.text {
+    margin: 50px;
+    text-align: justify;
+    color: white;
+}
